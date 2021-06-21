@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: #0a0c1b;
+      font-family: sans-serif;
+    }
+
+    strong{
+      color: #a659d5;
+    }
+
+    .container {
+      background-color: #1c1938;
+      color: ivory;
+      padding: 35px 0px 40px 50px;
+      width: 475px;
+      height: 275px;
+      position:relative;
+      left: 200px;
+      top: 150px;
+    }
+    ul li{
+      list-style-type: none;
+      display: inline;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    img {
+      border-radius: 7px;
+      width: 450px;
+      height: 350px;
+      position: relative;
+      left: 720px;
+      bottom: 200px;
+    }
+    ul {
+      position: relative;
+      top: 20px;
+    }
+
+    ul.nums {
+      word-spacing: 83px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    ul.names, p {
+      color: slategrey;
+      font-size: 14px;
+    }
+
+    ul.names {
+      word-spacing: 50px;
+      letter-spacing: 1px;
+    }
+
+    ul.nums li.queries {
+      position: relative;
+      left: 11px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Get <strong>insights</strong> that help <br> 
+      your business grow.</h1>
+    <p>Discover the benefits of data analytics and make <br> 
+      better decisions regarding revenue, customer <br> 
+      experience, and overall efficiency.</p>
+    <ul class="nums">
+      <li class="companies">10k+</li>
+      <li class="templates">314</li>
+      <li class="queries">12M+</li>
+    </ul>
+    <ul class="names">
+      <li class="comps">COMPANIES</li>
+      <li class="temps">TEMPLATES</li>
+      <li class="qs">QUERIES</li>
+    </ul>
+  </div>
+  <img src="images/image-header-desktop.jpg">
+</body>
+</html>
